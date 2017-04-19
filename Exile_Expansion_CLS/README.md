@@ -1,7 +1,7 @@
 ![ArmA 1.68](https://img.shields.io/badge/Arma-1.68-blue.svg) ![Exile 1.0.2 Kohlrabi](https://img.shields.io/badge/Exile-1.0.2%20Kohlrabi-C72651.svg) ![Exile Expansion Version](https://img.shields.io/badge/Exile%20Expansion-0.86%20Alpha-orange.svg) ![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
 # General Information:
-####Please feel free to give feedback and suggestions to this work.
+#### Please feel free to give feedback and suggestions to this work.
 
 # What is Exile Expansion CLS:
 The Exile Expansion Container Loot-System or CLS is a new and additional way to create static loot spawns on your server.
@@ -27,7 +27,9 @@ Take a look into the Exile_Expansion_CLS\@ExileServer\addons\a3_exile_expansion_
 # Installation:
 
 1.) Place the containers:
+
 Use the Exile Eden Plugin within the Eden Editor to make your life easy: http://www.exilemod.com/download-all-the-files/Exile3DEN-1.0.0.zip
+
 All what you have to do is to place the static plp containers in the Eden Editor where you want them and get the arrays from the Exile Eden Plugin within the Editor from the initServer.sqf export.
 For example, the code of an object array looks like this:
 ```
@@ -41,6 +43,7 @@ For example, the code of an object array looks like this:
 ```
 
 2.) Export the Objects:
+
 Locate the file or create one in Exile_Expansion_CLS\@ExileServer\addons\a3_exile_expansion_cls\code\CLS_LootCrates_YOUR_MAP_NAME_OR_WHAT_EVER.sqf.
 Open that file and put your container object arrays into this file like this:
 ```
@@ -54,6 +57,7 @@ Always remember! No comma on the last line or it will not work!
 Save that file!
 
 3.) Prepare the server addon:
+
 Go to Exile_Expansion\Exile_Expansion_CLS\@ExileServer\addons\a3_exile_expansion_cls and open up the fn_postInit.sqf.
 Add the name of your created object file to the fn_postInit.sqf, for example on a Server with the Tanoa Map:
 ```
@@ -94,10 +98,12 @@ diag_log format["End of CLS Server Addon Post-Init :: Total Execution Time %1 se
 diag_log "----------------------------------------------------------------------------------------------------";
 ```
 Save the file!
+
 After that you can pack the Exile_Expansion\Exile_Expansion_CLS\@ExileServer\addons\a3_exile_expansion_cls directory
 with your favorite PBO Manager and place the pbo on your servers @ExileServer/addons directory.
 
 Run the Server and enjoy the new loot system! :)
+
 
 # Licence:
 This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
