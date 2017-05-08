@@ -26,7 +26,33 @@ Take a look into the Exile_Expansion_CLS\@ExileServer\addons\a3_exile_expansion_
 
 # Installation:
 
-1.) Place the containers:
+1.) Prepare the mission file:
+
+Add the following line to your CfgRemoteExec Functions class within your missions description.ext:
+```
+class bis_fnc_holdactionremove								{ allowedTargets=1; };
+```
+So it looks like this:
+```
+class CfgRemoteExec 
+{
+    class Functions 
+    {
+        mode = 2;
+        jip = 0;
+		class ExileServer_system_network_dispatchIncomingMessage 	{ allowedTargets=2; };
+		class bis_fnc_holdactionremove								{ allowedTargets=1; };
+    };
+    class Commands
+    {
+		mode=0;
+		jip=0;
+    };
+};
+```
+After that you can pack your mission file with your favorite PBO Manager and place the pbo on your servers mpmission directory.
+
+2.) Place the containers:
 
 Use the Exile Eden Plugin within the Eden Editor to make your life easy: http://www.exilemod.com/download-all-the-files/Exile3DEN-1.0.0.zip
 
@@ -42,9 +68,10 @@ For example, the code of an object array looks like this:
 	]
 ```
 
-2.) Export the Objects:
+3.) Export the Objects:
 
-Locate the file or create one in Exile_Expansion_CLS\@ExileServer\addons\a3_exile_expansion_cls\code\CLS_LootCrates_YOUR_MAP_NAME_OR_WHAT_EVER.sqf.
+Locate Exile_Expansion_CLS\@ExileServer\addons\a3_exile_expansion_cls\code
+and create a file in there: CLS_LootCrates_YOUR_MAP_NAME_OR_WHAT_EVER.sqf
 Open that file and put your container object arrays into this file like this:
 ```
 [
@@ -53,10 +80,10 @@ Open that file and put your container object arrays into this file like this:
 	["plp_ct_RecycleBinGreenOpenTrash", [11724.9, 2999.94, 5.60208], [0.478139, -0.878284, 0], [0, 0, 1], true]
 ]
 ```
-Always remember! No comma on the last line or it will not work!
+Always remember! No commas on the last 2 lines or it will not work!
 Save that file!
 
-3.) Prepare the server addon:
+5.) Prepare the server addon:
 
 Go to Exile_Expansion\Exile_Expansion_CLS\@ExileServer\addons\a3_exile_expansion_cls and open up the fn_postInit.sqf.
 Add the name of your created object file to the fn_postInit.sqf, for example on a Server with the Tanoa Map:
@@ -101,9 +128,7 @@ Save the file!
 
 After that you can pack the Exile_Expansion\Exile_Expansion_CLS\@ExileServer\addons\a3_exile_expansion_cls directory
 with your favorite PBO Manager and place the pbo on your servers @ExileServer/addons directory.
-
 Run the Server and enjoy the new loot system! :)
-
 
 # Licence:
 This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
