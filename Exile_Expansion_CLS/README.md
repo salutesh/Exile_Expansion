@@ -83,7 +83,7 @@ Open that file and put your container object arrays into this file like this:
 Always remember! No commas on the last 2 lines or it will not work!
 Save that file!
 
-5.) Prepare the server addon:
+4.) Prepare the server addon:
 
 Go to Exile_Expansion\Exile_Expansion_CLS\@ExileServer\addons\a3_exile_expansion_cls and open up the fn_postInit.sqf.
 Add the name of your created object file to the fn_postInit.sqf, for example on a Server with the Tanoa Map:
