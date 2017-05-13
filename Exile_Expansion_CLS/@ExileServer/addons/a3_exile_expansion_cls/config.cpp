@@ -10,7 +10,7 @@ class CfgPatches
 	{
 		units[] = {};
 		weapons[] = {};
-		exile_taunus_version = "April 16, 2017";
+		exile_expansion_cls_version = "Mai 13, 2017";
 		requiredVersion = 1.68;
 		requiredAddons[] = {"exile_server_config"};
 	};

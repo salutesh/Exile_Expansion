@@ -33,7 +33,7 @@ if (missionNamespace getVariable [_varname,false]) exitWith
 missionNamespace setVariable [_varname,true];
 
 
-private _export = call compile preprocessFileLineNumbers (format ["a3_exile_cls\code\%1.sqf",_file]);
+private _export = call compile preprocessFileLineNumbers (format ["a3_exile_expansion_cls\code\%1.sqf",_file]);
 
 if ((isNil "_export") || {!(_export isEqualType [])}) exitWith
 {
