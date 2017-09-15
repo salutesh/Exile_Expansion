@@ -18,7 +18,7 @@ class CfgPatches
 
 class CfgFunctions
 {
-	class Expansion
+	class Exile_Expansion_CLS
 	{	
 		tag = "Exile_Expansion_CLS";
 		class Master
@@ -29,7 +29,7 @@ class CfgFunctions
 		};
 		class Functions
 		{
-			file = "a3_exile_expansion_server\functions";
+			file = "a3_exile_expansion_cls\functions";
 			class AddHoldAction									{};
 			class ImportInteractionCrates						{};
 		};

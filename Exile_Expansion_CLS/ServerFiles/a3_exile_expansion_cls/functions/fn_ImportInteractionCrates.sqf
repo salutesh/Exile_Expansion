@@ -35,7 +35,7 @@ if (missionNamespace getVariable [_varname,false]) exitWith
 missionNamespace setVariable [_varname,true];
 
 
-private _export = call compile preprocessFileLineNumbers (format ["a3_exile_expansion_server\code\%1.sqf",_file]);
+private _export = call compile preprocessFileLineNumbers (format ["a3_exile_expansion_cls\code\objects\%1.sqf", _file]);
 
 if ((isNil "_export") || {!(_export isEqualType [])}) exitWith
 {
@@ -137,7 +137,7 @@ private _lootHolderObjects = _export apply
 					true
 				] call Exile_Expansion_CLS_fnc_AddHoldAction;
 				
-				if Exile_Expansion_DEBUG then {
+				if Exile_Expansion_CLS_DEBUG then {
 					_pos = getPos _lootHolder;
 					_marker = createMarker [format ["%1", _pos],_pos];
 					_marker setMarkerShape "Icon";
