@@ -3,24 +3,20 @@
 ![Alt text](https://steamuserimages-a.akamaihd.net/ugc/854978269915336608/5CC826BCBFFAA92B1112AEAE79D521B1D2CA4B61/)
 
 # General Information:
-####Please note that this is project is at its development stage!
-
-####Please feel free to give feedback and suggestions to this work.
+Please note that this is project is at its development stage and there might be some bugs.
+Feel free to give feedback and suggestions to this work.
 
 
 # Requirements:
-Exile Mod 1.0.3: 
-http://www.exilemod.com/downloads/
+Exile Mod 1.0.3: http://www.exilemod.com/downloads/
 
 Base Exile Mod.
 
-Exile Expansion Mod:
-http://steamcommunity.com/sharedfiles/filedetails/?id=832000537
+Exile Expansion Mod: http://steamcommunity.com/sharedfiles/filedetails/?id=832000537
 
 Project Client Mod.
 
-PLP Containers:
-http://steamcommunity.com/sharedfiles/filedetails/?id=504690333&searchtext=PLP+Containers
+PLP Containers: http://steamcommunity.com/sharedfiles/filedetails/?id=504690333&searchtext=PLP+Containers
 
 PLP Containers is a gread mod by Poolpank and this Addon will add dozens of Containers, both in static and useable Versions.
 See a list of the available assets in the classnames.xls , that should be included in the mod.
