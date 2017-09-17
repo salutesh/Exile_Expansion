@@ -75,7 +75,7 @@ Exile Mod 1.0.3: http://www.exilemod.com/downloads/
 > 
 > To let CLS spawn container objects we have to place them on our map where we want to have them later on the server in the Eden Editor.
 > For this we use the Exile Eden Plugin (http://www.exilemod.com/download-all-the-files/Exile3DEN-1.0.0.zip) and add the arrays of the objects after the placement from the plugin into the CLS server addon file:
-> a3_exile_expansion_cls\code\objects\CrateObjects.sqf
+> a3_exile_cls\code\objects\CrateObjects.sqf
 > There is a example code for the Tanoa map in there already, just place the object arrays in there not the complet code from the plugin!
 >
 
