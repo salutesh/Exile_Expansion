@@ -42,7 +42,26 @@ Exile Mod 1.0.3: http://www.exilemod.com/downloads/
 >	  };
 >
 >
-> 4.	(Optional) Merge the content of the provided CfgExileCustomCode.cpp with your Exile missions config.cpp CfgExileCustomCode class.
+> 4.	Merge the content of the provided CfgDialogs.cpp with your Exile missions description.ext RscTitles class if you have already one: 
+>
+> So it looks like this for example:
+>
+>	  class RscTitles
+>	  {
+>	  	class Default 
+>	  	{
+>	  		idd = -1;
+>			fadein = 0;
+>			fadeout = 0;
+>			duration = 0;
+>	  	};
+>		// Loot system
+>		#include "dialogs\ExileLootUI.hpp"
+>	  };
+>
+> Drop the dialogs folder into your missions root folder.
+>
+> 5.	(Optional) Merge the content of the provided CfgExileCustomCode.cpp with your Exile missions config.cpp CfgExileCustomCode class.
 >
 > So it looks like this for example:
 >
@@ -67,7 +86,7 @@ Exile Mod 1.0.3: http://www.exilemod.com/downloads/
 >		  ExileServer_system_lootManager_spawnLootInBuilding = "\a3_exile_expansion_cls\Exile_Server_Overrides\ExileServer_system_lootManager_spawnLootInBuilding.sqf";
 >	  };
 >
-> 4.	Pack the a3_exile_cls directory with your favourite PBO pack tool and place it inside your servers @ExileServer/addons folder.
+> 6.	Pack the a3_exile_cls directory with your favourite PBO pack tool and place it inside your servers @ExileServer/addons folder.
 >
 
 
