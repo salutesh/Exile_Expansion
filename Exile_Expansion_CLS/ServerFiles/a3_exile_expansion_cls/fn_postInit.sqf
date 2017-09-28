@@ -14,7 +14,7 @@ diag_log "------------------------------------------ Version 1.0 ---------------
 diag_log "----------------------------------------------------------------------------------------------------";
 diag_log format['[Exile Expansion CLS Server Addon] Loading server files..'];
 
-["CrateObjects"] call Exile_Expansion_CLS_fnc_ImportInteractionCrates;
+//["CrateObjects"] call Exile_Expansion_CLS_fnc_ImportInteractionCrates;
 
 diag_log format['[Exile Expansion CLS Server Addon] Server files loaded!'];
 diag_log "----------------------------------------------------------------------------------------------------";

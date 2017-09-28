@@ -48,73 +48,137 @@ _lootHolderObject = [];
 		_itemClassName = _lootTableName call ExileServer_system_lootManager_dropItem;
 		if !(_itemClassName in _spawnedItemClassNames) then
 		{
-			if (isNull _lootHolder) then 
+			_containerChance = getNumber (_lootHolderConfig >> "containerChance");
+			if (random 100 < _containerChance) then
 			{
-				_lootHolderObject = selectRandom (getArray (_lootHolderConfig >> _lootTableName >> "objects"));
-				_lootHolder = createVehicle [_lootHolderObject, _lootPosition, [], 0, "CAN_COLLIDE"];
-				_lootHolder setDir (random 360);
-				_lootHolder setPosATL _lootPosition;
-				_lootHolder setVariable ["ExileSpawnedAt", time];
-				_lootWeaponHolderNetIDs pushBack (netId _lootHolder);
-				_lootHolder setVariable ["ExileIsLocked", -1,true];
-						
-				// Add hold action				
-				[
-					//--- 0: Target
-					_lootHolder,
+				if (isNull _lootHolder) then 
+				{
+					_lootHolderObject = selectRandom (getArray (_lootHolderConfig >> _lootTableName >> "objects"));
+					_lootHolder = createVehicle [_lootHolderObject, _lootPosition, [], 0, "CAN_COLLIDE"];
+					_lootHolder setDir (random 360);
+					_lootHolder setPosATL _lootPosition;
+					_lootHolder setVariable ["ExileSpawnedAt", time];
+					_lootWeaponHolderNetIDs pushBack (netId _lootHolder);
+					_lootHolder setVariable ["ExileIsLocked", -1,true];
+							
+					// Add hold action				
+					[
+						//--- 0: Target
+						_lootHolder,
 
-					//--- 1: Title
-					_holdActionText,
+						//--- 1: Title
+						_holdActionText,
 
-					//--- 2: Idle Icon
-					_holdActionIdleIcon,
+						//--- 2: Idle Icon
+						_holdActionIdleIcon,
 
-					//--- 3: Progress Icon
-					_holdActionProgressIcon,
+						//--- 3: Progress Icon
+						_holdActionProgressIcon,
 
-					//--- 4: Condition Show
-					"_this distance _target < 3",
+						//--- 4: Condition Show
+						"_this distance _target < 3 && (player getVariable ['CanLootContainer', true])",
 
-					//--- 5: Condition Progress
-					"_caller distance _target < 3",
+						//--- 5: Condition Progress
+						"_caller distance _target < 3",
 
-					//--- 6: Code Start
-					{},
+						//--- 6: Code Start
+						{},
 
-					//--- 7: Code Progress
-					{
-						_progressTick = _this select 4;
-						if (_progressTick % 2 == 0) exitwith {};
-						playsound3d [((getarray (configfile >> "CfgSounds" >> "Orange_Action_Wheel" >> "sound")) param [0,""]) + ".wss",player,false,getposasl player,1,0.9 + 0.2 * _progressTick / 24];
-					},
+						//--- 7: Code Progress
+						{
+							_progressTick = _this select 4;
+							if (_progressTick % 2 == 0) exitwith {};
+							playsound3d [((getarray (configfile >> "CfgSounds" >> "Orange_Action_Wheel" >> "sound")) param [0,""]) + ".wss",player,false,getposasl player,1,0.9 + 0.2 * _progressTick / 24];
+						},
 
-					//--- 8: Code Completed
-					{
-						_lootHolder = (_this select 3) select 0;  // <<-- This gets the first Argument given to the hold action under 10: Arguments
-						_scriptHandler = [_lootHolder] spawn {
-							_lootHolder = _this select 0;
-							[_lootHolder, 0] remoteExec ["bis_fnc_holdActionRemove", 0, true];
-							_lootHolder setVariable ["ExileIsLocked", 0, true];
-						};
-						waitUntil { scriptDone _scriptHandler };
-						player action ["GEAR",_lootHolder];
-					},
+						//--- 8: Code Completed
+						{
+							_player = _this select 1;
+							_lootHolder = (_this select 3) select 0;  // <<-- This gets the first Argument given to the hold action under 10: Arguments
+							[_lootHolder, _player] spawn 
+							{	
+								_lootHolder = _this select 0;
+								_player = _this select 1;
+								_animationToPlay = ["", ""] call BIS_fnc_selectRandom;
+								
+								_player setVariable ["CanLootContainer", false];
+								
+								( ["ExileLootUI"] call BIS_fnc_rscLayer ) cutRsc [ "ExileLootUI", "PLAIN", 1, false ];
+								
+								if (_animationToPlay != "") then 
+								{
+									_startAnimTime = time;
+									_player playMove _animationToPlay;
+									waitUntil {animationState _player != _animationToPlay};
+								}
+								else
+								{
+									_player playAction "Crouch";
+								};
+								
+								_searchtime = 3;
+								_searchradius = 1.5;
+								_searchPos = getPosATL _player;
+								_playerInSearchArea = [_player, _searchPos, _searchradius] spawn 
+								{
+									params["_player", "_searchPos", "_searchradius"]; 
+									waitUntil 
+									{ 
+										_player distanceSqr _searchPos >  ( _searchradius^2 ) 
+									} 
+								};
+								for "_sleep" from _searchtime to 0 step -0.01 do 
+								{
+									_progress = linearConversion [0, _searchtime, _sleep, 0, 1];
+									(uiNamespace getVariable "ExileLootUI" displayCtrl 1000);
+									(uiNamespace getVariable "ExileLootUI" displayCtrl 1001) ctrlSetTextColor [1, 0.706, 0.094, _sleep % 1];
+									(uiNamespace getVariable "ExileLootUI" displayCtrl 1002) progressSetPosition _progress;
+									sleep 0.01;
+									if (scriptDone _playerInSearchArea) exitWith 
+									{
+										_player setVariable ["CanLootContainer", true];
+									};
+								};
+								(["ExileLootUI"] call BIS_fnc_rscLayer) cutRsc ["Default", "PLAIN", 1, false];
+								if (scriptDone _playerInSearchArea) exitWith {};
+								terminate _playerInSearchArea;
+								
+								_lootHolder = _this select 0;
+								[_lootHolder, 0] remoteExec ["bis_fnc_holdActionRemove", 0, true];
+								_lootHolder setVariable ["ExileIsLocked", 0, true];
+								sleep 0.01;
+								_player action ["GEAR",_lootHolder];
+								_player setVariable ["CanLootContainer", true];
+							};
+						},
 
-					//--- 9: Code Interrupted
-					{},
+						//--- 9: Code Interrupted
+						{},
 
-					//--- 10: Arguments
-					[_lootHolder],
+						//--- 10: Arguments
+						[_lootHolder],
 
-					//--- 11: Duration
-					0.5,
+						//--- 11: Duration
+						0.5,
 
-					//--- 12: Priority
-					0,
+						//--- 12: Priority
+						0,
 
-					//--- 13: Remove When Completed
-					true
-				] call Exile_Expansion_CLS_fnc_AddHoldAction;
+						//--- 13: Remove When Completed
+						false
+					] call Exile_Expansion_CLS_fnc_AddHoldAction;
+				};
+			}
+			else
+			{
+				if (isNull _lootHolder) then 
+				{
+					_lootHolder = createVehicle ["LootWeaponHolder", _lootPosition, [], 0, "CAN_COLLIDE"];
+					_lootHolder setDir (random 360);
+					_lootHolder setPosATL _lootPosition;
+					_lootHolder setVariable ["ExileSpawnedAt", time];
+					_lootWeaponHolderNetIDs pushBack (netId _lootHolder);											
+				};
 			};
 			_cargoType = _itemClassName call ExileClient_util_cargo_getType;
 			switch (_cargoType) do
@@ -157,6 +221,7 @@ _lootHolderObject = [];
 			};
 			_spawnedItemClassNames pushBack _itemClassName;
 		};
+	
 	};
 }
 forEach _lootPositions;

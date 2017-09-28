@@ -10,10 +10,9 @@ class CfgExileLootContainers {
 		Configuration for the CLS loot spawn system:
 	*/
 	class ExileLootFromContainer {
-		/*
-			Max amount of items a container can hold.
-		*/
-		maximumNumberOfItemsPerLootCrate = 4;
+		
+		maximumNumberOfItemsPerLootCrate = 4;	// Max amount of items a container can hold.
+		containerChance = 50;					// Chance to spawn loot into container object instead of normal weaponholder. Default is a 50/50 Chance. Increase this value to expand the chance to spawn a loot crate and backwards.
 		
 		/*
 			Object classes configuration.
