@@ -1,8 +1,8 @@
 /**
  * ExileServer_system_lootManager_spawnLootInBuilding
  *
- * Exile Expansion Mod
- * www.reality-gaming.eu
+ * Exile Mod
+ * www.exilemod.com
  * © 2017 Exile Mod Team
  *
  * This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. 
