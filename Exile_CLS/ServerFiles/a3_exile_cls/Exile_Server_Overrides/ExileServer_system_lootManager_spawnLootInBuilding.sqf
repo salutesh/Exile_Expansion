@@ -1,9 +1,9 @@
 /**
  * ExileServer_system_lootManager_spawnLootInBuilding
  *
- * Exile Mod
- * www.exilemod.com
- * © 2015 Exile Mod Team
+ * Exile Expansion Mod
+ * www.reality-gaming.eu
+ * © 2017 Exile Mod Team
  *
  * This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. 
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
@@ -59,39 +59,22 @@ _lootHolderObject = [];
 					_lootHolder setPosATL _lootPosition;
 					_lootHolder setVariable ["ExileSpawnedAt", time];
 					_lootWeaponHolderNetIDs pushBack (netId _lootHolder);
-					_lootHolder setVariable ["ExileIsLocked", -1,true];
-							
-					// Add hold action				
+					
+					_lootHolder setVariable ["ExileIsLocked", -1, true];
+										
 					[
-						//--- 0: Target
 						_lootHolder,
-
-						//--- 1: Title
 						_holdActionText,
-
-						//--- 2: Idle Icon
 						_holdActionIdleIcon,
-
-						//--- 3: Progress Icon
 						_holdActionProgressIcon,
-
-						//--- 4: Condition Show
 						"_this distance _target < 3 && (player getVariable ['CanLootContainer', true])",
-
-						//--- 5: Condition Progress
 						"_caller distance _target < 3",
-
-						//--- 6: Code Start
 						{},
-
-						//--- 7: Code Progress
 						{
 							_progressTick = _this select 4;
 							if (_progressTick % 2 == 0) exitwith {};
 							playsound3d [((getarray (configfile >> "CfgSounds" >> "Orange_Action_Wheel" >> "sound")) param [0,""]) + ".wss",player,false,getposasl player,1,0.9 + 0.2 * _progressTick / 24];
 						},
-
-						//--- 8: Code Completed
 						{
 							_player = _this select 1;
 							_lootHolder = (_this select 3) select 0;  // <<-- This gets the first Argument given to the hold action under 10: Arguments
@@ -134,13 +117,13 @@ _lootHolderObject = [];
 									(uiNamespace getVariable "ExileLootUI" displayCtrl 1001) ctrlSetTextColor [1, 0.706, 0.094, _sleep % 1];
 									(uiNamespace getVariable "ExileLootUI" displayCtrl 1002) progressSetPosition _progress;
 									sleep 0.01;
-									if (scriptDone _playerInSearchArea) exitWith 
-									{
-										_player setVariable ["CanLootContainer", true];
-									};
+									if (scriptDone _playerInSearchArea) exitWith {};
 								};
 								(["ExileLootUI"] call BIS_fnc_rscLayer) cutRsc ["Default", "PLAIN", 1, false];
-								if (scriptDone _playerInSearchArea) exitWith {};
+								if (scriptDone _playerInSearchArea) exitWith 
+								{
+									_player setVariable ["CanLootContainer", true];
+								};
 								terminate _playerInSearchArea;
 								
 								_lootHolder = _this select 0;
@@ -148,25 +131,16 @@ _lootHolderObject = [];
 								_lootHolder setVariable ["ExileIsLocked", 0, true];
 								sleep 0.01;
 								_player action ["GEAR",_lootHolder];
+								_player action ["GEAR",_lootHolder];
 								_player setVariable ["CanLootContainer", true];
 							};
 						},
-
-						//--- 9: Code Interrupted
 						{},
-
-						//--- 10: Arguments
 						[_lootHolder],
-
-						//--- 11: Duration
 						0.5,
-
-						//--- 12: Priority
 						0,
-
-						//--- 13: Remove When Completed
 						false
-					] call Exile_Expansion_CLS_fnc_AddHoldAction;
+					] remoteExec ["ExileExpansionClient_gui_holdActionAdd", 0, true];
 				};
 			}
 			else
