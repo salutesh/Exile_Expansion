@@ -120,47 +120,5 @@ class CfgExileLootContainers {
 			icon = "Exile_HA_Icon_Trashbin";
 			text = "Search through trashbin";
 		};
-		class Toolbox
-		{
-			objects[] = {"plp_ct_ToolboxRedDirty", "plp_ct_ToolboxBlackClean", "plp_ct_ToolboxRedClean", "plp_ct_ToolboxBlackDirty"};
-			icon = "Exile_HA_Icon_Toolbox";
-			text = "Search through toolbox";
-		};
-		class Mechanic
-		{
-			objects[] = {"plp_ct_VMachineSnacksBlackOn", "plp_ct_VMachineSnacksBlackOff", "plp_ct_VMachineSnacksBeigeOn", "plp_ct_VMachineSnacksBeigeOff", "plp_ct_VMachineDrinksBlackOn", "plp_ct_VMachineDrinksBeigeOn", "plp_ct_VMachineDrinksBeigeOff", "plp_ct_VMachineCoffeeBlackOn", "plp_ct_VMachineCoffeeBlackOff"};
-			icon = "Exile_HA_Icon_Machine";
-			text = "Search through machine";
-		};
-		class Locker
-		{
-			objects[] = {"plp_ct_FootlockerYellow", "plp_ct_FootlockerRed", "plp_ct_FootlockerGreen", "plp_ct_FootlockerBrown", "plp_ct_CasketLeatherRed", "plp_ct_CasketLeatherGreen", "plp_ct_CasketLeatherBrown", "plp_ct_CasketLeatherBlack"};
-			icon = "Exile_HA_Icon_Footlocker";
-			text = "Search through footlocker";
-		};
-		class Barrel
-		{
-			objects[] = {"plp_ct_WoodBarrelDark", "plp_ct_WoodBarrelLight", "plp_ctf_BarrelOlive", "plp_ctf_BarrelBlue", "plp_ctf_BarrelBlack", "plp_ctf_BarrelTan", "plp_ctf_BarrelYellow", "plp_ctf_BarrelRusty"};
-			icon = "Exile_HA_Icon_Barrel";
-			text = "Search through barrel";
-		};
-		class Multibox
-		{
-			objects[] = {"plp_ct_MultiboxUtilOlive", "plp_ct_MultiboxUtilOrange", "plp_ct_MultiboxUtilTan"};
-			icon = "Exile_HA_Icon_Multibox";
-			text = "Search through multibox";
-		};
-		class Suitcase
-		{
-			objects[] = {"plp_ct_SuitcaseFabricBeigeSide", "SuitcaseFabricBlackSide", "SuitcaseFabricBrownSide", "SuitcaseFabricGreenSide", "SuitcaseFabricRedSide", "plp_ct_SuitcaseMetalBlackSide", "plp_ct_SuitcaseMetalSilverSide"};
-			icon = "Exile_HA_Icon_Suitcase";
-			text = "Search through suitcase";
-		};
-		class Bag
-		{
-			objects[] = {"plp_ct_TravelBagBlue", "plp_ct_SuitcaseBigRed", "plp_ct_SuitcaseBigGrey", "plp_ct_SuitcaseBigGreen", "plp_ct_SuitcaseBigBlue", "plp_ct_SuitcaseBigBlack"};
-			icon = "Exile_HA_Icon_Bag";
-			text = "Search through bag";
-		};
 	};
 };

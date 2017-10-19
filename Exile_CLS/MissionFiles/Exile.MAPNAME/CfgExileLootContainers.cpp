@@ -28,7 +28,8 @@ class CfgExileLootContainers {
 	/* 
 		Default Exile loot spawn expansion configuration:
 	*/
-	class ExileContainerFromTable {
+	class ExileContainerFromTable 
+	{
 		/*
 			Max amount of items a container can hold.
 		*/
@@ -94,48 +95,6 @@ class CfgExileLootContainers {
 			objects[] = {"Box_T_East_Ammo_F", "Box_Syndicate_Ammo_F", "Box_T_East_Wps_F", "Box_T_NATO_Wps_F", "Box_Syndicate_Wps_F"};
 			icon = "Exile_HA_Icon_Trashbin";
 			text = "Search through trashbin";
-		};
-		class Toolbox
-		{
-			objects[] = {"Box_T_East_Ammo_F", "Box_Syndicate_Ammo_F", "Box_T_East_Wps_F", "Box_T_NATO_Wps_F", "Box_Syndicate_Wps_F"};
-			icon = "Exile_HA_Icon_Toolbox";
-			text = "Search through toolbox";
-		};
-		class Mechanic
-		{
-			objects[] = {"Box_T_East_Ammo_F", "Box_Syndicate_Ammo_F", "Box_T_East_Wps_F", "Box_T_NATO_Wps_F", "Box_Syndicate_Wps_F"};
-			icon = "Exile_HA_Icon_Machine";
-			text = "Search through machine";
-		};
-		class Locker
-		{
-			objects[] = {"Box_T_East_Ammo_F", "Box_Syndicate_Ammo_F", "Box_T_East_Wps_F", "Box_T_NATO_Wps_F", "Box_Syndicate_Wps_F"};
-			icon = "Exile_HA_Icon_Footlocker";
-			text = "Search through footlocker";
-		};
-		class Barrel
-		{
-			objects[] = {"Box_T_East_Ammo_F", "Box_Syndicate_Ammo_F", "Box_T_East_Wps_F", "Box_T_NATO_Wps_F", "Box_Syndicate_Wps_F"};
-			icon = "Exile_HA_Icon_Barrel";
-			text = "Search through barrel";
-		};
-		class Multibox
-		{
-			objects[] = {"Box_T_East_Ammo_F", "Box_Syndicate_Ammo_F", "Box_T_East_Wps_F", "Box_T_NATO_Wps_F", "Box_Syndicate_Wps_F"};
-			icon = "Exile_HA_Icon_Multibox";
-			text = "Search through multibox";
-		};
-		class Suitcase
-		{
-			objects[] = {"Box_T_East_Ammo_F", "Box_Syndicate_Ammo_F", "Box_T_East_Wps_F", "Box_T_NATO_Wps_F", "Box_Syndicate_Wps_F"};
-			icon = "Exile_HA_Icon_Suitcase";
-			text = "Search through suitcase";
-		};
-		class Bag
-		{
-			objects[] = {"Box_T_East_Ammo_F", "Box_Syndicate_Ammo_F", "Box_T_East_Wps_F", "Box_T_NATO_Wps_F", "Box_Syndicate_Wps_F"};
-			icon = "Exile_HA_Icon_Bag";
-			text = "Search through bag";
 		};
 	};
 };
