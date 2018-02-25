@@ -1,0 +1,2314 @@
+version=53;
+class EditorData
+{
+	moveGridStep=0.38410103;
+	angleGridStep=0.2617994;
+	scaleGridStep=0.1;
+	autoGroupingDist=10;
+	toggles=74;
+	class ItemIDProvider
+	{
+		nextID=391;
+	};
+	class MarkerIDProvider
+	{
+		nextID=33;
+	};
+	class LayerIndexProvider
+	{
+		nextID=4;
+	};
+	class Camera
+	{
+		pos[]={6684.7046,23.783876,2368.5183};
+		dir[]={-0.035185639,-0.78548044,0.61790442};
+		up[]={-0.044657022,0.61886555,0.78422534};
+		aside[]={0.99839425,2.9209059e-007,0.056851614};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"exile_client",
+	"A3_Ui_F",
+	"exile_expansion_client",
+	"A3_Structures_F_Civ_Camping",
+	"a3_characters_f",
+	"cup_misc3_config",
+	"cup_camisc",
+	"chernarusredux_chz",
+	"chernarusredux_buildings",
+	"cup_castructureshouse_housev2",
+	"cup_cahouseblock_b",
+	"cup_ind_pec",
+	"cup_ind_sawmill",
+	"cup_buildings_config",
+	"cup_castructures_mil",
+	"cup_castructureshouse_a_hospital",
+	"cup_misc_powerstation",
+	"cup_editor_buildings_config",
+	"cup_cabuildings2_misc_cargo",
+	"cup_editor_plants_config",
+	"cup_camp_armory_misc_loudspeakers",
+	"plp_containers"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=21;
+		class Item0
+		{
+			className="exile_client";
+			name="exile_client";
+		};
+		class Item1
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item2
+		{
+			className="exile_expansion_client";
+			name="exile_expansion_client";
+		};
+		class Item3
+		{
+			className="A3_Structures_F";
+			name="Arma 3 - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item4
+		{
+			className="a3_characters_f";
+			name="a3_characters_f";
+		};
+		class Item5
+		{
+			className="cup_misc3_config";
+			name="cup_misc3_config";
+		};
+		class Item6
+		{
+			className="cup_camisc";
+			name="cup_camisc";
+		};
+		class Item7
+		{
+			className="chernarusredux_chz";
+			name="chernarusredux_chz";
+		};
+		class Item8
+		{
+			className="chernarusredux_buildings";
+			name="chernarusredux_buildings";
+		};
+		class Item9
+		{
+			className="cup_castructureshouse_housev2";
+			name="cup_castructureshouse_housev2";
+		};
+		class Item10
+		{
+			className="cup_cahouseblock_b";
+			name="cup_cahouseblock_b";
+		};
+		class Item11
+		{
+			className="cup_ind_pec";
+			name="cup_ind_pec";
+		};
+		class Item12
+		{
+			className="cup_ind_sawmill";
+			name="cup_ind_sawmill";
+		};
+		class Item13
+		{
+			className="cup_buildings_config";
+			name="cup_buildings_config";
+		};
+		class Item14
+		{
+			className="cup_castructures_mil";
+			name="cup_castructures_mil";
+		};
+		class Item15
+		{
+			className="cup_castructureshouse_a_hospital";
+			name="cup_castructureshouse_a_hospital";
+		};
+		class Item16
+		{
+			className="cup_misc_powerstation";
+			name="cup_misc_powerstation";
+		};
+		class Item17
+		{
+			className="cup_editor_buildings_config";
+			name="cup_editor_buildings_config";
+		};
+		class Item18
+		{
+			className="cup_cabuildings2_misc_cargo";
+			name="cup_cabuildings2_misc_cargo";
+		};
+		class Item19
+		{
+			className="cup_editor_plants_config";
+			name="cup_editor_plants_config";
+		};
+		class Item20
+		{
+			className="cup_camp_armory_misc_loudspeakers";
+			name="cup_camp_armory_misc_loudspeakers";
+		};
+		class Item21
+		{
+			className="plp_containers";
+			name="plp_containers";
+		};
+	};
+};
+randomSeed=11693060;
+class ScenarioData
+{
+	author="[RG] Salutesh";
+};
+class Intro
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2039;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+	class Entities
+	{
+		items=19;
+		class Item0
+		{
+			dataType="Marker";
+			position[]={3642.8281,0,2472.9033};
+			name="SpawnKomarovo";
+			text="Komarovo";
+			markerType="ELLIPSE";
+			type="ExileSpawnZone";
+			colorName="ColorBlack";
+			fillName="Border";
+			a=500;
+			b=500;
+			drawBorder=1;
+			id=243;
+			atlOffset=-6.9299998;
+		};
+		class Item1
+		{
+			dataType="Marker";
+			position[]={3642.8279,0,2472.9031};
+			name="SpawnKomarovoIcon";
+			type="ExileSpawnZoneIcon";
+			colorName="ColorPink";
+			id=244;
+			atlOffset=-6.9299998;
+		};
+		class Item2
+		{
+			dataType="Marker";
+			position[]={6711.7202,0,2589.9814};
+			name="SpawnChernogorsk";
+			text="Chernogorsk";
+			markerType="ELLIPSE";
+			type="ExileSpawnZone";
+			colorName="ColorBlack";
+			fillName="Border";
+			a=500;
+			b=500;
+			drawBorder=1;
+			id=245;
+			atlOffset=-6;
+		};
+		class Item3
+		{
+			dataType="Marker";
+			position[]={6711.7202,0,2589.981};
+			name="SpawnChernogorskIcon";
+			type="ExileSpawnZoneIcon";
+			colorName="ColorPink";
+			id=246;
+			atlOffset=-6;
+		};
+		class Item4
+		{
+			dataType="Marker";
+			position[]={10513.343,0,2081.8613};
+			name="SpawnElektro";
+			text="Elektrozavodsk";
+			markerType="ELLIPSE";
+			type="ExileSpawnZone";
+			colorName="ColorBlack";
+			fillName="Border";
+			a=500;
+			b=500;
+			drawBorder=1;
+			id=247;
+			atlOffset=-5.3404536;
+		};
+		class Item5
+		{
+			dataType="Marker";
+			position[]={10513.343,0,2081.8611};
+			name="SpawnElektroIcon";
+			type="ExileSpawnZoneIcon";
+			colorName="ColorPink";
+			id=248;
+			atlOffset=-5.3404384;
+		};
+		class Item6
+		{
+			dataType="Marker";
+			position[]={13352.05,0,6301.7461};
+			name="SpawnSolnichniy";
+			text="Solnichniy";
+			markerType="ELLIPSE";
+			type="ExileSpawnZone";
+			colorName="ColorBlack";
+			fillName="Border";
+			a=500;
+			b=500;
+			drawBorder=1;
+			id=249;
+			atlOffset=-6.0061183;
+		};
+		class Item7
+		{
+			dataType="Marker";
+			position[]={13352.05,0,6301.7461};
+			name="SpawnSolnichniyIcon";
+			type="ExileSpawnZoneIcon";
+			colorName="ColorPink";
+			id=250;
+			atlOffset=-6.0061183;
+		};
+		class Item8
+		{
+			dataType="Marker";
+			position[]={12546.252,0,9774.4521};
+			name="SpawnBerezino";
+			text="Berezino";
+			markerType="ELLIPSE";
+			type="ExileSpawnZone";
+			colorName="ColorBlack";
+			fillName="Border";
+			a=500;
+			b=500;
+			drawBorder=1;
+			id=251;
+			atlOffset=-9.8811426;
+		};
+		class Item9
+		{
+			dataType="Marker";
+			position[]={12546.252,0,9774.4521};
+			name="SpawnBerezinoIcon";
+			type="ExileSpawnZoneIcon";
+			colorName="ColorPink";
+			id=252;
+			atlOffset=-9.8811426;
+		};
+		class Item10
+		{
+			dataType="Marker";
+			position[]={1909.78,0,2247.2};
+			name="SpawnKamenka";
+			text="Kamenka";
+			markerType="ELLIPSE";
+			type="ExileSpawnZone";
+			colorName="ColorBlack";
+			fillName="Border";
+			a=500;
+			b=500;
+			drawBorder=1;
+			id=253;
+			atlOffset=-6.1425099;
+		};
+		class Item11
+		{
+			dataType="Marker";
+			position[]={1909.78,0,2247.2};
+			name="SpawnKamenkaIcon";
+			type="ExileSpawnZoneIcon";
+			colorName="ColorPink";
+			id=254;
+			atlOffset=-6.1425099;
+		};
+		class Item12
+		{
+			dataType="Marker";
+			position[]={11464.6,0,7481.6099};
+			name="TraderZonePolana";
+			markerType="ELLIPSE";
+			type="ExileTraderZone";
+			colorName="ColorBlack";
+			fillName="Border";
+			a=125;
+			b=125;
+			drawBorder=1;
+			id=255;
+			atlOffset=-221;
+		};
+		class Item13
+		{
+			dataType="Marker";
+			position[]={11464.6,0,7481.6099};
+			name="TraderZonePolanaIcon";
+			type="ExileExpansionTraderIcon";
+			id=256;
+			atlOffset=-221;
+		};
+		class Item14
+		{
+			dataType="Marker";
+			position[]={3813.74,0,8948.0801};
+			name="TraderZoneVybor";
+			markerType="ELLIPSE";
+			type="ExileTraderZone";
+			colorName="ColorBlack";
+			fillName="Border";
+			a=125;
+			b=125;
+			drawBorder=1;
+			id=257;
+			atlOffset=-310.99121;
+		};
+		class Item15
+		{
+			dataType="Marker";
+			position[]={3813.74,0,8948.0801};
+			name="TraderZoneVyborIcon";
+			type="ExileExpansionTraderIcon";
+			colorName="ColorWhite";
+			id=258;
+			atlOffset=-310.99121;
+		};
+		class Item16
+		{
+			dataType="Marker";
+			position[]={12191.7,0,12601.1};
+			name="TraderZoneKrasnostav";
+			markerType="ELLIPSE";
+			type="ExileTraderZone";
+			colorName="ColorBlack";
+			fillName="Border";
+			a=125;
+			b=125;
+			drawBorder=1;
+			id=259;
+			atlOffset=-158.97646;
+		};
+		class Item17
+		{
+			dataType="Marker";
+			position[]={12191.7,0,12601.1};
+			name="TraderZoneKrasnostavIcon";
+			type="ExileAircraftTraderIcon";
+			colorName="ColorWEST";
+			id=260;
+			atlOffset=-158.97646;
+		};
+		class Item18
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=100;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13237.161,49.455276,11705.388};
+						angles[]={6.2731428,0,6.0671844};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=262;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13234.718,49.9618,11705.505};
+						angles[]={6.2445087,0,6.0946789};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=263;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13232.741,50.262226,11705.62};
+						angles[]={6.2445087,0,6.1733384};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=264;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13230.821,50.424397,11705.563};
+						angles[]={6.2039452,0,6.2137189};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=265;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13228.785,50.575771,11705.331};
+						angles[]={6.2039452,0,6.1906691};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=266;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13226.924,50.703869,11705.505};
+						angles[]={6.1617341,0,6.2330904};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=267;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13225.296,50.688766,11705.098};
+						angles[]={6.1617346,0,6.2823396};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=268;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13223.492,50.719608,11705.563};
+						angles[]={6.1345148,0,0.026885116};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=269;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13221.398,50.651215,11705.388};
+						angles[]={6.1345143,0,0.013978098};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=270;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13219.652,50.605503,11705.448};
+						angles[]={6.1098452,0,0.039279584};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=271;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item10
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13237.393,49.258095,11702.888};
+						angles[]={6.1442242,0,6.0946789};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=272;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item11
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13235.357,49.687073,11703.179};
+						angles[]={6.1442242,0,6.0946789};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=273;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item12
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13233.264,49.956696,11702.946};
+						angles[]={6.1004806,0,6.2137189};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=274;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item13
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13231.229,50.152264,11703.238};
+						angles[]={6.1004806,0,6.2137189};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=275;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item14
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13229.25,50.234676,11703.118};
+						angles[]={6.0743074,0,6.2330914};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=276;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item15
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13227.622,50.304302,11703.062};
+						angles[]={6.0743074,0,6.2330914};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=277;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item16
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13225.411,50.360271,11703.179};
+						angles[]={6.0511093,0,0.026882898};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=278;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item17
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13223.608,50.297516,11703.118};
+						angles[]={6.0511093,0,0.026882898};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=279;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item18
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13221.864,50.269951,11703.238};
+						angles[]={6.0492077,0,0.039278068};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=280;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item19
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13219.537,50.178493,11703.238};
+						angles[]={6.0492077,0,0.039278068};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=281;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item20
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13237.684,48.940044,11700.969};
+						angles[]={6.1442237,0,6.1256971};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=282;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item21
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13235.242,49.36105,11701.084};
+						angles[]={6.1004806,0,6.1383381};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=283;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item22
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13233.03,49.618046,11701.025};
+						angles[]={6.1004806,0,6.2137189};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=284;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item23
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13230.764,49.745941,11701.143};
+						angles[]={6.0743074,0,6.2408366};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=285;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item24
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13229.134,49.796871,11701.025};
+						angles[]={6.0743074,0,6.2330914};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=286;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item25
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13227.389,49.872261,11701.143};
+						angles[]={6.0511093,0,6.2574191};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=287;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item26
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13225.296,49.903465,11701.259};
+						angles[]={6.0511093,0,0.026882898};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=288;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item27
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13223.435,49.864155,11701.317};
+						angles[]={6.0492077,0,0.02889224};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=289;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item28
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13221.456,49.782135,11701.259};
+						angles[]={6.0492077,0,0.039278068};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=290;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item29
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13219.304,49.728497,11701.376};
+						angles[]={6.0507169,0,0.037686978};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=291;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item30
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13237.858,48.631248,11699.106};
+						angles[]={6.1047144,0,6.1739683};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=292;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item31
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13235.066,48.993729,11698.931};
+						angles[]={6.1047144,0,6.1383381};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=293;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item32
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13232.799,49.197678,11699.05};
+						angles[]={6.0567694,0,6.2408366};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=294;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item33
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13230.473,49.313381,11699.165};
+						angles[]={6.0350537,0,6.2637978};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=295;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item34
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13228.785,49.324619,11699.05};
+						angles[]={6.0350537,0,6.2574191};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=296;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item35
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13227.272,49.331669,11698.931};
+						angles[]={6.0175996,0,6.2760677};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=297;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item36
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13225.063,49.320625,11698.989};
+						angles[]={6.0175996,0,0.028890176};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=298;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item37
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13223.201,49.300133,11699.106};
+						angles[]={6.0232148,0,0.022874273};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=299;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item38
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13221.805,49.242771,11699.05};
+						angles[]={6.0232148,0,0.037686978};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=300;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item39
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13219.421,49.215256,11699.28};
+						angles[]={6.0325708,0,0.027704123};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=301;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item40
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13237.918,48.236614,11696.955};
+						angles[]={6.1047144,0,6.1739683};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=302;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item41
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13236.288,48.458191,11697.071};
+						angles[]={6.0567694,0,6.1875844};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=303;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item42
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13234.486,48.644039,11697.128};
+						angles[]={6.0567694,0,6.1875844};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=304;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item43
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13232.334,48.776283,11697.188};
+						angles[]={6.0350537,0,6.2637978};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=305;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=-0.00022888184;
+				};
+				class Item44
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13230.064,48.820286,11697.188};
+						angles[]={6.0350537,0,6.2637978};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=306;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=-0.00022888184;
+				};
+				class Item45
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13227.68,48.870552,11697.246};
+						angles[]={6.0175996,0,6.2760677};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=307;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item46
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13225.645,48.878925,11697.304};
+						angles[]={6.0175996,0,0.028890176};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=308;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item47
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13224.074,48.82526,11697.246};
+						angles[]={6.0232148,0,0.022874273};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=309;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item48
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13221.864,48.749695,11697.188};
+						angles[]={6.0232148,0,0.037686978};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=310;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=-0.00024032593;
+				};
+				class Item49
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13220.003,48.725357,11697.304};
+						angles[]={6.0325708,0,0.027704123};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=311;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item50
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13237.918,47.836861,11694.802};
+						angles[]={6.0941377,0,6.1859665};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=312;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item51
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13236.639,47.971405,11694.86};
+						angles[]={6.0941372,0,6.1875844};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=313;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item52
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13234.602,48.198456,11695.034};
+						angles[]={6.0904803,0,6.1913447};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=314;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item53
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13232.508,48.323898,11695.151};
+						angles[]={6.0904803,0,6.2638011};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=315;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item54
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13230.473,48.359306,11695.093};
+						angles[]={6.100203,0,6.2537332};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=316;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item55
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13227.797,48.399769,11695.151};
+						angles[]={6.100203,0,6.2760758};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=317;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item56
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13225.936,48.447762,11695.325};
+						angles[]={6.1121211,0,0.022874273};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=318;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item57
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13223.666,48.395836,11695.325};
+						angles[]={6.1121211,0,0.022874273};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=319;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item58
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13221.805,48.368031,11695.325};
+						angles[]={6.1302547,0,0.027704123};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=320;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item59
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13219.246,48.345795,11695.617};
+						angles[]={6.1494918,0,0.0080751367};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=321;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item60
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13237.801,47.559082,11693.29};
+						angles[]={6.0941377,0,6.1859665};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=322;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item61
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13235.242,47.697289,11692.768};
+						angles[]={6.0904803,0,6.1913447};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=323;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item62
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13233.09,47.894558,11692.998};
+						angles[]={6.100203,0,6.2537332};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=324;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item63
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13230.995,47.977959,11693.115};
+						angles[]={6.100203,0,6.2537332};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=325;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item64
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13228.843,48.042881,11693.231};
+						angles[]={6.1121206,0,6.2637763};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=326;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item65
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13227.506,48.068848,11693.231};
+						angles[]={6.1121206,0,6.2637763};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=327;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item66
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13225.47,48.125683,11693.522};
+						angles[]={6.1121211,0,0.022874273};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=328;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item67
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13224.074,48.116142,11693.522};
+						angles[]={6.1302547,0,0.0042567407};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=329;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item68
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13221.864,48.109608,11693.638};
+						angles[]={6.1302547,0,0.027704123};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=330;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item69
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13219.421,48.089115,11693.698};
+						angles[]={6.1494918,0,0.0080751367};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=331;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item70
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13238.44,46.831783,11689.86};
+						angles[]={6.090836,0,6.1864991};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=332;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item71
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13236.696,47.019478,11689.976};
+						angles[]={6.090836,0,6.1913447};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=333;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item72
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13234.66,47.203495,11689.86};
+						angles[]={6.1011276,0,6.1807837};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=334;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item73
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13232.043,47.388737,11690.032};
+						angles[]={6.1209512,0,6.2333407};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=335;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item74
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13230.646,47.458385,11690.032};
+						angles[]={6.1209512,0,6.2333407};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=336;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item75
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13228.437,47.545124,11690.151};
+						angles[]={6.1424384,0,6.2418065};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=337;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item76
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13226.575,47.605324,11690.032};
+						angles[]={6.1424384,0,6.2418065};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=338;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item77
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13224.48,47.630344,11690.091};
+						angles[]={6.1646242,0,6.264883};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=339;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item78
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13222.91,47.659088,11690.091};
+						angles[]={6.1646242,0,6.264883};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=340;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item79
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13220.991,47.665165,11690.151};
+						angles[]={6.1870189,0,6.2686062};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=341;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item80
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13237.743,46.577778,11687.881};
+						angles[]={6.1565785,0,6.1941319};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=342;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item81
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13235.531,46.831398,11688.113};
+						angles[]={6.1565785,0,6.1807842};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=343;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item82
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13233.555,47.029125,11688.172};
+						angles[]={6.1525989,0,6.2333422};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=344;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item83
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13230.764,47.160633,11688.113};
+						angles[]={6.1525989,0,6.2333422};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=345;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item84
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13228.959,47.264931,11688.113};
+						angles[]={6.1858459,0,6.2418065};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=346;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item85
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13227.04,47.355644,11688.229};
+						angles[]={6.1858459,0,6.2418065};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=347;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item86
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13225.236,47.426308,11688.172};
+						angles[]={6.2253423,0,6.2648797};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=348;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item87
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13223.608,47.452728,11688.113};
+						angles[]={6.2253423,0,6.2648797};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=349;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item88
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13221.107,47.523384,11688.289};
+						angles[]={6.2642837,0,6.2686062};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=350;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item89
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13219.77,47.542904,11688.289};
+						angles[]={6.2642837,0,6.2686062};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=351;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item90
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13237.393,46.358814,11685.903};
+						angles[]={6.1565785,0,6.1807842};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=352;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item91
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13235.416,46.549263,11685.845};
+						angles[]={6.1525989,0,6.1847906};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=353;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item92
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13233.381,46.724651,11685.788};
+						angles[]={6.1525989,0,6.2333422};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=354;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item93
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13230.938,46.91629,11685.788};
+						angles[]={6.1858459,0,6.1998076};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=355;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item94
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13228.611,47.084736,11685.903};
+						angles[]={6.2253423,0,6.20222};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=356;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item95
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13226.518,47.254635,11685.903};
+						angles[]={6.2253423,0,6.20222};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=357;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item96
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13224.249,47.358829,11685.962};
+						angles[]={6.2642837,0,6.2259412};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=358;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item97
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13221.456,47.477062,11686.079};
+						angles[]={0.019978138,0,6.2297688};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=359;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item98
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13218.781,47.617744,11686.194};
+						angles[]={0.019978138,0,6.2297688};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=360;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item99
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13239.08,46.199169,11685.845};
+						angles[]={6.1565785,0,6.1941319};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						isPlayable=1;
+					};
+					id=361;
+					type="Exile_Unit_GhostPlayer";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=261;
+		};
+	};
+};
+class OutroLoose
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class OutroWin
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};

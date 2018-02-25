@@ -1,0 +1,13 @@
+
+Exile Loottable Classes:
+
+CivillianLowerClass
+CivillianUpperClass
+Shop
+Industrial
+Factories
+VehicleService
+Military
+Medical
+Tourist
+Radiation

@@ -1,0 +1,6 @@
+Mod Update Toast:
+
+["InfoTitleAndText", ["Exile Taunus Mod Update", "<img align='center' image='exile_taunus_assets\texture\mod\Exile_Taunus_Logo.paa' size='120'/><br/>A new Exile Taunus Mod update has been released! Please download the latest version from the Steam Workshop to prevent any issues."]] call ExileClient_gui_toaster_addTemplateToast;
+
+
+["InfoTitleAndText", ["Exile Taunus Server", "<img align='center' image='exile_taunus_assets\texture\mod\Exile_Taunus_Logo.paa' size='120'/><br/>Please note that this gameplay mod is is still in early development! Our developers are working hard to expand your gameplay experience in Taunus. For the latest changes visit our forums at <t color='#fbfcfe'>www.reality-gaming.eu</t>"]] call ExileClient_gui_toaster_addTemplateToast;

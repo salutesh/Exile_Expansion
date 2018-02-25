@@ -1,0 +1,1267 @@
+{| class="wikitable sortable" width="100%"
+! width="5%" |No.
+! width="45%" |Title
+! width="40%" |Class Name
+! width="10%" |Duration
+
+|-
+| 1
+| Main Menu
+| Main_Menu
+| 162.8
+
+|-
+| 2
+| 01 Street Combat
+| ATrack6
+| N/A
+
+|-
+| 3
+| 02 Flashpoint Rearmed
+| ATrack25
+| N/A
+
+|-
+| 4
+| 03 Primo In Mortis
+| ATrack1
+| N/A
+
+|-
+| 5
+| 04 Arma Magna
+| ATrack18
+| N/A
+
+|-
+| 6
+| 05 Dogs Of War
+| ATrack3
+| N/A
+
+|-
+| 7
+| 06 Black Ops
+| ATrack24
+| N/A
+
+|-
+| 8
+| 07 Seventh Company
+| ATrack4
+| N/A
+
+|-
+| 9
+| 08 Field Track
+| ATrack5
+| N/A
+
+|-
+| 10
+| 09 Team Bravo
+| ATrack27
+| N/A
+
+|-
+| 11
+| 10 Arma Vera
+| ATrack7
+| N/A
+
+|-
+| 12
+| 11 Second Assault
+| ATrack23
+| N/A
+
+|-
+| 13
+| 12 Paradise On Earth
+| ATrack8
+| N/A
+
+|-
+| 14
+| 13 Team Alpha
+| ATrack2
+| N/A
+
+|-
+| 15
+| 14 First Assault
+| ATrack23b
+| N/A
+
+|-
+| 16
+| Crescendo 1
+| ATrack9
+| N/A
+
+|-
+| 17
+| Crescendo 2
+| ATrack10
+| N/A
+
+|-
+| 18
+| Short: Sahrani 1
+| ATrack11
+| N/A
+
+|-
+| 19
+| Short: Sahrani 2
+| ATrack12
+| N/A
+
+|-
+| 20
+| Short: Sahrani 3
+| ATrack13
+| N/A
+
+|-
+| 21
+| Short: Combat
+| ATrack14
+| N/A
+
+|-
+| 22
+| Short: Riff
+| ATrack15
+| N/A
+
+|-
+| 23
+| Short: Bells
+| ATrack16
+| N/A
+
+|-
+| 24
+| Short: Casaulties Of War
+| ATrack17
+| N/A
+
+|-
+| 25
+| Short: Street Combat
+| ATrack22
+| N/A
+
+|-
+| 26
+| Short: Arma Magna Rock 1
+| ATrack19
+| N/A
+
+|-
+| 27
+| Short: Arma Magna Rock 2
+| ATrack20
+| N/A
+
+|-
+| 28
+| Short: Arma Magna
+| ATrack21
+| N/A
+
+|-
+| 29
+| Semper Fidelis
+| ATrack26
+| N/A
+
+|-
+| 30
+| WithCare - I Will Smile
+| WithCare_Smile
+| N/A
+
+|-
+| 31
+| WithCare - Suicide Song
+| WithCare_Suicide
+| N/A
+
+|-
+| 32
+| WithCare - War
+| WithCare_War
+| N/A
+
+|-
+| 33
+| WithCare - What
+| WithCare_What
+| N/A
+
+|-
+| 34
+| Mission 02
+| QGTrack1
+| N/A
+
+|-
+| 35
+| Mission 02 - outro
+| QGTrack2
+| N/A
+
+|-
+| 36
+| Mission 03
+| QGTrack3
+| N/A
+
+|-
+| 37
+| Mission 03 - outro (lagr)
+| QGTrack4
+| N/A
+
+|-
+| 38
+| Mission 04
+| QGTrack5
+| N/A
+
+|-
+| 39
+| Mission 04 - outro
+| QGTrack6
+| N/A
+
+|-
+| 40
+| Mission 05
+| QGTrack7
+| N/A
+
+|-
+| 41
+| Mission 05 - outro
+| QGTrack8
+| N/A
+
+|-
+| 42
+| Mission 06
+| QGTrack9
+| N/A
+
+|-
+| 43
+| This Is War
+| LeadTrack01_F
+| 162.8
+
+|-
+| 44
+| This Is War a
+| LeadTrack01a_F
+| 74.31
+
+|-
+| 45
+| This Is War b
+| LeadTrack01b_F
+| 66.92
+
+|-
+| 46
+| Main Menu
+| LeadTrack01c_F
+| 128.93
+
+|-
+| 47
+| Proteus
+| LeadTrack02_F
+| 94.14
+
+|-
+| 48
+| Combined Arms
+| LeadTrack03_F
+| 96.79
+
+|-
+| 49
+| Action Dark 2
+| LeadTrack04_F
+| 150.65
+
+|-
+| 50
+| Action Dark
+| LeadTrack04a_F
+| 111.99
+
+|-
+| 51
+| Taking Kavala
+| LeadTrack05_F
+| 86.41
+
+|-
+| 52
+| Down at the Girina Bay
+| LeadTrack06_F
+| 60
+
+|-
+| 53
+| The East Wind - Alternative 1
+| AmbientTrack01_F
+| 189.7
+
+|-
+| 54
+| The East Wind
+| AmbientTrack01a_F
+| 184.72
+
+|-
+| 55
+| The East Wind - Alternative 2
+| AmbientTrack01b_F
+| 96.01
+
+|-
+| 56
+| Solar Power
+| AmbientTrack03_F
+| 113.48
+
+|-
+| 57
+| Night percussions
+| AmbientTrack04a_F
+| 190.51
+
+|-
+| 58
+| Night ambient
+| AmbientTrack04_F
+| 204.05
+
+|-
+| 59
+| Car and Heli
+| BackgroundTrack03_F
+| 110.77
+
+|-
+| 60
+| Underwater 2
+| BackgroundTrack01_F
+| 97.67
+
+|-
+| 61
+| Underwater 1
+| BackgroundTrack01a_F
+| 96
+
+|-
+| 62
+| On The Road
+| BackgroundTrack02_F
+| 88
+
+|-
+| 63
+| N/A
+| Track01_Proteus
+| 94.14
+
+|-
+| 64
+| N/A
+| Track02_SolarPower
+| 113.49
+
+|-
+| 65
+| N/A
+| Track03_OnTheRoad
+| 88
+
+|-
+| 66
+| N/A
+| Track04_Underwater1
+| 96
+
+|-
+| 67
+| N/A
+| Track05_Underwater2
+| 97.67
+
+|-
+| 68
+| N/A
+| Track06_CarnHeli
+| 110.77
+
+|-
+| 69
+| N/A
+| Track07_ActionDark
+| 112
+
+|-
+| 70
+| N/A
+| Track08_Night_ambient
+| 204.04
+
+|-
+| 71
+| N/A
+| Track09_Night_percussions
+| 190.5
+
+|-
+| 72
+| N/A
+| Track10_StageB_action
+| 96.8
+
+|-
+| 73
+| N/A
+| Track11_StageB_stealth
+| 184.72
+
+|-
+| 74
+| N/A
+| Track12_StageC_action
+| 86.41
+
+|-
+| 75
+| N/A
+| Track13_StageC_negative
+| 60
+
+|-
+| 76
+| N/A
+| Track14_MainMenu
+| 128.93
+
+|-
+| 77
+| N/A
+| Track15_MainTheme
+| 162.81
+
+|-
+| 78
+| Stage A: Lead Track 01 (Conquistador)
+| LeadTrack01_F_EPA
+| 96.04
+
+|-
+| 79
+| Stage A: Lead Track 02 (Aegis Blues)
+| LeadTrack02_F_EPA
+| 116.71
+
+|-
+| 80
+| Stage A: Lead Track 02 (Aegis Blues - Alternative 1)
+| LeadTrack02a_F_EPA
+| 53.39
+
+|-
+| 81
+| Stage A: Lead Track 02 (Aegis Blues - Alternative 2)
+| LeadTrack02b_F_EPA
+| 62.04
+
+|-
+| 82
+| Stage A: Lead Track 03 (Survive the Hard Part)
+| LeadTrack03_F_EPA
+| 137.94
+
+|-
+| 83
+| Stage A: Lead Track 03 (Survive the Hard Part - Alternative)
+| LeadTrack03a_F_EPA
+| 22.68
+
+|-
+| 84
+| Stage A: Event Track 01 (Fragmented)
+| EventTrack01_F_EPA
+| 28.54
+
+|-
+| 85
+| Stage A: Event Track 01 (Fragmented - Alternative)
+| EventTrack01a_F_EPA
+| 28.45
+
+|-
+| 86
+| Stage A: Event Track 02 (Horizon Scan)
+| EventTrack02_F_EPA
+| 36.46
+
+|-
+| 87
+| Stage A: Event Track 02 (Horizon Scan - Alternative)
+| EventTrack02a_F_EPA
+| 36.08
+
+|-
+| 88
+| Stage A: Event Track 03 (Chemistry of War)
+| EventTrack03_F_EPA
+| 35.91
+
+|-
+| 89
+| Stage A: Event Track 03 (Chemistry of War - Alternative)
+| EventTrack03a_F_EPA
+| 35.17
+
+|-
+| 90
+| Stage B: Lead Track 01 (Adapt)
+| LeadTrack01_F_EPB
+| 135.03
+
+|-
+| 91
+| Stage B: Lead Track 01 (Adapt - Alternative)
+| LeadTrack01a_F_EPB
+| 85.5
+
+|-
+| 92
+| Stage B: Lead Track 02 (Exit Strategy)
+| LeadTrack02_F_EPB
+| 179.11
+
+|-
+| 93
+| Stage B: Lead Track 02 (Exit Strategy - Alternative 1)
+| LeadTrack02a_F_EPB
+| 70.36
+
+|-
+| 94
+| Stage B: Lead Track 02 (Exit Strategy - Alternative 2)
+| LeadTrack02b_F_EPB
+| 117
+
+|-
+| 95
+| Stage B: Lead Track 03 (Beyond Recognition)
+| LeadTrack03_F_EPB
+| 123.2
+
+|-
+| 96
+| Stage B: Lead Track 03 (Beyond Recognition - Alternative 1)
+| LeadTrack03a_F_EPB
+| 60.66
+
+|-
+| 97
+| Stage B: Lead Track 04 (Canton Protocol)
+| LeadTrack04_F_EPB
+| 132.25
+
+|-
+| 98
+| Stage B: Event Track 01 (Resist)
+| EventTrack01_F_EPB
+| 36.11
+
+|-
+| 99
+| Stage B: Event Track 01 (Resist - Alternative)
+| EventTrack01a_F_EPB
+| 28.23
+
+|-
+| 100
+| Stage B: Event Track 02 (Ambush)
+| EventTrack02_F_EPB
+| 22.22
+
+|-
+| 101
+| Stage B: Event Track 02 (Ambush - Alternative)
+| EventTrack02a_F_EPB
+| 22.45
+
+|-
+| 102
+| Stage B: Event Track 03 (Recon)
+| EventTrack03_F_EPB
+| 29.68
+
+|-
+| 103
+| Stage B: Event Track 04 (Radio Silence)
+| EventTrack04_F_EPB
+| 44.58
+
+|-
+| 104
+| Stage B: Event Track 04 (Radio Silence - Alternative 1)
+| EventTrack04a_F_EPB
+| 40.52
+
+|-
+| 105
+| Stage B: Event Track 03 (Recon - Alternative)
+| EventTrack03a_F_EPB
+| 30.25
+
+|-
+| 106
+| Stage B: Ambient Track 01 (Signal Lost)
+| AmbientTrack01_F_EPB
+| 69.49
+
+|-
+| 107
+| Stage B: Background Track 01 (The Hunt)
+| BackgroundTrack01_F_EPB
+| 126.84
+
+|-
+| 108
+| Stage C: Lead Track 01 (Back on Stratis)
+| LeadTrack01_F_EPC
+| 93.86
+
+|-
+| 109
+| Stage C: Lead Track 02 (LZ hot)
+| LeadTrack02_F_EPC
+| 96.11
+
+|-
+| 110
+| Stage C: Lead Track 03 (The Trap)
+| LeadTrack03_F_EPC
+| 146.66
+
+|-
+| 111
+| Stage C: Lead Track 04 (In the Open)
+| LeadTrack04_F_EPC
+| 128.56
+
+|-
+| 112
+| Stage C: Lead Track 05 (Revenge)
+| LeadTrack05_F_EPC
+| 86.85
+
+|-
+| 113
+| Stage C: Lead Track 06 (Win)
+| LeadTrack06_F_EPC
+| 131.79
+
+|-
+| 114
+| Stage C: Lead Track 06 (Win - Alternative 1)
+| LeadTrack06b_F_EPC
+| 66.01
+
+|-
+| 115
+| Stage C: Event Track 01 (Farewell Altis)
+| EventTrack01_F_EPC
+| 38.77
+
+|-
+| 116
+| Stage C: Event Track 02 (Broken Barricade)
+| EventTrack02_F_EPC
+| 47.22
+
+|-
+| 117
+| Stage C: Event Track 02 (Broken Barricade - Alternative 1)
+| EventTrack02b_F_EPC
+| 29.54
+
+|-
+| 118
+| Stage C: Event Track 03 (Unforeseen Perdition)
+| EventTrack03_F_EPC
+| 87.66
+
+|-
+| 119
+| Stage C: Background Track 01 (Alone)
+| BackgroundTrack01_F_EPC
+| 96
+
+|-
+| 120
+| Stage C: Background Track 02 (Just Another Day)
+| BackgroundTrack02_F_EPC
+| 97.87
+
+|-
+| 121
+| Stage C: Background Track 03 (Altis Requiem)
+| BackgroundTrack03_F_EPC
+| 148.03
+
+|-
+| 122
+| Stage C: Background Track 04 (Assembly)
+| BackgroundTrack04_F_EPC
+| 79.65
+
+|-
+| 123
+| N/A
+| C_EA_RadioBroadcast1
+| 41.73
+
+|-
+| 124
+| N/A
+| C_EA_RadioBroadcast2
+| 37.7
+
+|-
+| 125
+| N/A
+| C_EA_RadioMusic1
+| 52.22
+
+|-
+| 126
+| N/A
+| C_EA_RadioMusic2
+| 72.01
+
+|-
+| 127
+| N/A
+| RadioAmbient1
+| 17.4
+
+|-
+| 128
+| N/A
+| RadioAmbient2
+| 9.77
+
+|-
+| 129
+| N/A
+| RadioAmbient3
+| 11.08
+
+|-
+| 130
+| N/A
+| RadioAmbient4
+| 6.83
+
+|-
+| 131
+| N/A
+| RadioAmbient5
+| 9.06
+
+|-
+| 132
+| N/A
+| RadioAmbient6
+| 6.56
+
+|-
+| 133
+| N/A
+| RadioAmbient7
+| 5.41
+
+|-
+| 134
+| N/A
+| RadioAmbient8
+| 11.64
+
+|-
+| 135
+| N/A
+| RadioAmbient9
+| 7.73
+
+|-
+| 136
+| N/A
+| RadioAmbient10
+| 10.73
+
+|-
+| 137
+| N/A
+| RadioAmbient11
+| 5.57
+
+|-
+| 138
+| N/A
+| RadioAmbient12
+| 18.47
+
+|-
+| 139
+| N/A
+| RadioAmbient13
+| 6
+
+|-
+| 140
+| N/A
+| RadioAmbient14
+| 7.21
+
+|-
+| 141
+| N/A
+| RadioAmbient15
+| 7.84
+
+|-
+| 142
+| N/A
+| RadioAmbient16
+| 11.42
+
+|-
+| 143
+| N/A
+| RadioAmbient17
+| 6.24
+
+|-
+| 144
+| N/A
+| RadioAmbient18
+| 9.68
+
+|-
+| 145
+| N/A
+| RadioAmbient19
+| 10.42
+
+|-
+| 146
+| N/A
+| RadioAmbient20
+| 6.05
+
+|-
+| 147
+| N/A
+| RadioAmbient21
+| 3.59
+
+|-
+| 148
+| N/A
+| RadioAmbient22
+| 4.67
+
+|-
+| 149
+| N/A
+| RadioAmbient23
+| 8.27
+
+|-
+| 150
+| N/A
+| RadioAmbient24
+| 8.23
+
+|-
+| 151
+| N/A
+| RadioAmbient25
+| 9.92
+
+|-
+| 152
+| N/A
+| RadioAmbient26
+| 7.97
+
+|-
+| 153
+| N/A
+| RadioAmbient27
+| 15.25
+
+|-
+| 154
+| N/A
+| RadioAmbient28
+| 12.63
+
+|-
+| 155
+| N/A
+| RadioAmbient29
+| 19.18
+
+|-
+| 156
+| N/A
+| RadioAmbient30
+| 8.86
+
+|-
+| 157
+| N/A
+| Fallout
+| 207.05
+
+|-
+| 158
+| N/A
+| Defcon
+| 193.23
+
+|-
+| 159
+| N/A
+| Wasteland
+| 194.88
+
+|-
+| 160
+| N/A
+| SkyNet
+| 233.64
+
+|-
+| 161
+| N/A
+| MAD
+| 198
+
+|-
+| 162
+| N/A
+| radio_music
+| 151.46
+
+|-
+| 163
+| B01: Crimson Lance
+| BAF_Track01
+| 140
+
+|-
+| 164
+| B02: Drums
+| BAF_Track02
+| 43
+
+|-
+| 165
+| B03: Jackals
+| BAF_Track03
+| 54
+
+|-
+| 166
+| B04: Through The Valley
+| BAF_Track04
+| 44
+
+|-
+| 167
+| B05: Utrinque Paratus
+| BAF_Track05
+| 44
+
+|-
+| 168
+| B06: War Pipes
+| BAF_Track06
+| 65
+
+|-
+| 169
+| Zeus Theme
+| LeadTrack01_F_Curator
+| 182.57
+
+|-
+| 170
+| Mission Accomplished
+| EventTrack01_F_Curator
+| 12.57
+
+|-
+| 171
+| Mission Failed
+| EventTrack02_F_Curator
+| 13.84
+
+|-
+| 172
+| Mission Accomplished (Zeus)
+| EventTrack03_F_Curator
+| 14.16
+
+|-
+| 173
+| This is War (VR Remix)
+| LeadTrack01_F_Bootcamp
+| 164.8
+
+|-
+| 174
+| This is War (VR Remix - loop)
+| LeadTrack01b_F_Bootcamp
+| 32.04
+
+|-
+| 175
+| Evolution
+| LeadTrack02_F_Bootcamp
+| 242.28
+
+|-
+| 176
+| Epic Split
+| LeadTrack03_F_Bootcamp
+| 61.28
+
+|-
+| 177
+| This is War (Heli Remix)
+| LeadTrack01_F_Heli
+| 164
+
+|-
+| 178
+| This is War (Marksmen Remix)
+| LeadTrack01_F_Mark
+| 158
+
+|-
+| 179
+| Marksmen DLC: Lead Track 02 (Into the Sun)
+| LeadTrack02_F_Mark
+| 171.54
+
+|-
+| 180
+| Marksmen DLC: Lead Track 03 (Marksmen)
+| LeadTrack03_F_Mark
+| 130.36
+
+|-
+| 181
+| This Is War (Apex Remix)
+| LeadTrack01_F_EXP
+| 176
+
+|-
+| 182
+| This Is War (Apex Remix) - Part 1
+| LeadTrack01a_F_EXP
+| 50.86
+
+|-
+| 183
+| This Is War (Apex Remix) - Part 2
+| LeadTrack01b_F_EXP
+| 71.83
+
+|-
+| 184
+| This Is War (Apex Remix) - Part 3
+| LeadTrack01c_F_EXP
+| 78.41
+
+|-
+| 185
+| An Unknown Enemy
+| LeadTrack02_F_EXP
+| 155.96
+
+|-
+| 186
+| No Time For Questions
+| LeadTrack03_F_EXP
+| 188.58
+
+|-
+| 187
+| This Is War (Apex Remix - Alternative 1)
+| LeadTrack04_F_EXP
+| 123.54
+
+|-
+| 188
+| Through The Jungle
+| AmbientTrack01_F_EXP
+| 111.66
+
+|-
+| 189
+| Through The Jungle - Part 1
+| AmbientTrack01a_F_EXP
+| 53.74
+
+|-
+| 190
+| Through The Jungle - Part 2
+| AmbientTrack01b_F_EXP
+| 72.22
+
+|-
+| 191
+| Welcome To Tanoa
+| AmbientTrack02_F_EXP
+| 142.78
+
+|-
+| 192
+| Welcome To Tanoa - Part 1
+| AmbientTrack02a_F_EXP
+| 32.54
+
+|-
+| 193
+| Welcome To Tanoa - Part 2
+| AmbientTrack02b_F_EXP
+| 40.33
+
+|-
+| 194
+| Welcome To Tanoa - Part 3
+| AmbientTrack02c_F_EXP
+| 42.7
+
+|-
+| 195
+| Welcome To Tanoa - Part 4
+| AmbientTrack02d_F_EXP
+| 78.71
+
+|-
+| 196
+| Exile Track 01 - Main Theme
+| ExileTrack01
+| 170
+
+|-
+| 197
+| Exile Track 02 - Welcome to Exile (Menu Version)
+| ExileTrack02
+| 223
+
+|-
+| 198
+| Exile Track 03 - Welcome to Exile (Original Composition)
+| ExileTrack03
+| 170
+
+|-
+| 199
+| Exile Track 04 - The Island (Roaming Ambience)
+| ExileTrack04
+| 317
+
+|-
+| 200
+| Exile Track 05 - The Island Minor (Roaming Ambience)
+| ExileTrack05
+| 317
+
+|-
+| 201
+| Exile Track 06 - Lethal Force (Combat Soundtrack)
+| ExileTrack06
+| 115
+
+|-
+| 202
+| Exile Track 07 - LethalForce v2 (Combat Soundtrack)
+| ExileTrack07
+| 157
+
+|-
+| 203
+| Fighter Jets
+| LeadTrack01_F_Jets
+| 188
+
+|-
+| 204
+| Air Power
+| LeadTrack02_F_Jets
+| 130
+
+|-
+| 205
+| Carrier
+| EventTrack01_F_Jets
+| 55
+
+|-
+| 206
+| This Is War (Laws of War Remix)
+| LeadTrack01_F_Orange
+| 117.17
+
+|-
+| 207
+| Laws of War DLC: Remnants of War
+| AmbientTrack02_F_Orange
+| 54.81
+
+|-
+| 208
+| Laws of War DLC: Escalation
+| EventTrack01_F_Orange
+| 59.1
+
+|-
+| 209
+| Laws of War DLC: Scenario Completed
+| EventTrack02_F_Orange
+| 17.48
+
+|-
+| 210
+| Laws of War DLC: Ambient
+| AmbientTrack01_F_Orange
+| 193.7
+
+|}
