@@ -15,6 +15,15 @@ class CfgExileCustomCode
 		ExileClient_util_fusRoDah = "myaddon\myfunction.sqf";
 	*/
 	
-	// Exile default container lootdrop changes
-	ExileServer_system_lootManager_spawnLootInBuilding = "\a3_exile_expansion_cls\Exile_Server_Overrides\ExileServer_system_lootManager_spawnLootInBuilding.sqf";
+	////////////////////////////////////
+	//	Exile Client Overrides
+	///////////////////////////////////
+	ExileClient_system_lootManager_thread_spawn = "Exile_Client_Overrides\ExileClient_system_lootManager_thread_spawn.sqf";
+	
+	////////////////////////////////////
+	//	Exile Server Overrides
+	///////////////////////////////////
+	
+	// Customized loot spawn (container loot expansion).
+	ExileServer_system_lootManager_spawnLootInBuilding = "Exile_Server_Overrides\ExileServer_system_lootManager_spawnLootInBuilding.sqf";
 };

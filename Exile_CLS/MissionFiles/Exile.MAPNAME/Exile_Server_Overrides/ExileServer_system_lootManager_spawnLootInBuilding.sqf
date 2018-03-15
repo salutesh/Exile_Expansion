@@ -21,7 +21,7 @@ if ((getPosATL _building) call ExileClient_util_world_isInRadiatedZone) then
 	_lootTableName = "Radiation";
 };
 _lootConfig = missionConfigFile >> "CfgExileLootSettings";
-_lootHolderConfig = missionConfigFile >> "CfgExileLootContainers" >> "ExileContainerFromTable";
+_lootHolderConfig = missionConfigFile >> "ExileExtendetLootspawn";
 _holdActionText = getText (_lootHolderConfig >> _lootTableName >> "text");
 _holdActionIdleIcon = getText (_lootHolderConfig >> _lootTableName >> "icon");
 _holdActionProgressIcon = getText (_lootHolderConfig >> _lootTableName >> "icon");
@@ -59,7 +59,6 @@ _lootHolderObject = [];
 					_lootHolder setPosATL _lootPosition;
 					_lootHolder setVariable ["ExileSpawnedAt", time];
 					_lootWeaponHolderNetIDs pushBack (netId _lootHolder);
-					
 					_lootHolder setVariable ["ExileIsLocked", -1, true];
 										
 					[
@@ -130,7 +129,6 @@ _lootHolderObject = [];
 								[_lootHolder, 0] remoteExec ["bis_fnc_holdActionRemove", 0, true];
 								_lootHolder setVariable ["ExileIsLocked", 0, true];
 								sleep 0.01;
-								_player action ["GEAR",_lootHolder];
 								_player action ["GEAR",_lootHolder];
 								_player setVariable ["CanLootContainer", true];
 							};

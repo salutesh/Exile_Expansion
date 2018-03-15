@@ -10,14 +10,15 @@ Exile Mod 1.0.3: http://www.exilemod.com/downloads/
 
 > ## Installation:
 > 
-> 1.	Add the CfgExileHoldActions.cpp and the CfgExileLootContainers.cpp and the texture folder to your Exile mission root folder.
+> 1.	Add the CfgExileHoldActions.cpp and the CfgExileExtendetLootspawn.cpp and the texture folder to your Exile mission root folder.
 > 2.	Merge the content of the provided description.ext with your Exile missions description.ext.
 >
 > So it looks like this for example:
 >
 >	  #include "config.cpp"
->	  #include "CfgExileLootContainers.cpp"
+>	  #include "CfgFunctions.cpp"
 >	  #include "CfgExileHoldActions.cpp"
+>	  #include "CfgExileExtendetLootspawn.cpp"
 >
 >
 > 3.	Merge the content of the provided CfgRemoteExec.cpp with your Exile missions description.ext CfgRemoteExec class: 
@@ -84,33 +85,18 @@ Exile Mod 1.0.3: http://www.exilemod.com/downloads/
 >		
 >		  // Exile default container lootdrop changes
 >		  ExileServer_system_lootManager_spawnLootInBuilding = "\a3_exile_expansion_cls\Exile_Server_Overrides\ExileServer_system_lootManager_spawnLootInBuilding.sqf";
+>		  ////////////////////////////////////
+>		  //	Exile Client Overrides
+>		  ///////////////////////////////////
+>		  ExileClient_system_lootManager_thread_spawn = "Exile_Client_Overrides\ExileClient_system_lootManager_thread_spawn.sqf";
+>	
+>		  ////////////////////////////////////
+>		  //	Exile Server Overrides
+>		  ///////////////////////////////////
+>		  ExileServer_system_lootManager_spawnLootInBuilding = "Exile_Server_Overrides\ExileServer_system_lootManager_spawnLootInBuilding.sqf";
 >	  };
 >
 > 6.	Pack the a3_exile_cls directory with your favourite PBO pack tool and place it inside your servers @ExileServer/addons folder.
->
-
-
-> ## How to use CLS:
-> 
-> To let CLS spawn container objects we have to place them on our map where we want to have them later on the server in the Eden Editor.
-> For this we use the Exile Eden Plugin (http://www.exilemod.com/download-all-the-files/Exile3DEN-1.0.0.zip) and add the arrays of the objects after the placement from the plugin into the CLS server addon file:
-> a3_exile_cls\code\objects\CrateObjects.sqf
-> There is a example code for the Tanoa map in there already, just place the object arrays in there not the complet code from the plugin!
->
-
-
-> ## CLS Configuration:
-> 
-> To let a container object work with CLS we need to add some informations about the object into the CfgExileLootContainers.cpp.
-> Inside the file there is a class called ExileLootFromContainer.
-> We need to add our objects as a new class inside the ExileLootFromContainer class:
->
->	  class plp_ct_CartonDarkMedium {    	// [STRING] The class has to be the container object classname.
->	  	table = "CivillianLowerClass";		// [STRING] Table is the exile Loot Table name used for the object.	
->		icon = "Exile_HA_Icon_Crate";		// [STRING] Icon is the hold action classname used for the object you can take a look into the CfgExileHoldActions for all configured hold action classnames.
->		text = "Search through crate";		// [STRING] Text for the hold action used for the object.
->	  };
->
 
 # Licence:
 This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
