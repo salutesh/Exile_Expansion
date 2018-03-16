@@ -10,13 +10,13 @@ Exile Mod 1.0.3: http://www.exilemod.com/downloads/
 
 > ## Installation:
 > 
-> 1.	Add the CfgExileHoldActions.cpp and the CfgExileExtendetLootspawn.cpp and the texture folder to your Exile mission root folder.
+> 1.	Add the CfgExileHoldActions.cpp, CfgDialogs.cpp and CfgExileExtendetLootspawn.cpp and the texture folder to your Exile mission root folder.
 > 2.	Merge the content of the provided description.ext with your Exile missions description.ext.
 >
 > So it looks like this for example:
 >
 >	  #include "config.cpp"
->	  #include "CfgFunctions.cpp"
+>	  #include "CfgDialogs.cpp"
 >	  #include "CfgExileHoldActions.cpp"
 >	  #include "CfgExileExtendetLootspawn.cpp"
 >
@@ -83,8 +83,6 @@ Exile Mod 1.0.3: http://www.exilemod.com/downloads/
 >			  ExileClient_util_fusRoDah = "myaddon\myfunction.sqf";
 >		  */
 >		
->		  // Exile default container lootdrop changes
->		  ExileServer_system_lootManager_spawnLootInBuilding = "\a3_exile_expansion_cls\Exile_Server_Overrides\ExileServer_system_lootManager_spawnLootInBuilding.sqf";
 >		  ////////////////////////////////////
 >		  //	Exile Client Overrides
 >		  ///////////////////////////////////
@@ -97,6 +95,7 @@ Exile Mod 1.0.3: http://www.exilemod.com/downloads/
 >	  };
 >
 > 6.	Pack the a3_exile_cls directory with your favourite PBO pack tool and place it inside your servers @ExileServer/addons folder.
+>
 
 # Licence:
 This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
